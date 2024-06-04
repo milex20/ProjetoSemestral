@@ -1,0 +1,1116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 3400px;
+}
+
+/*menu*/
+.menu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+    background-image: url(../IMG/banner.png);
+    
+}
+
+li{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    
+    width: 100px;
+    height: 30px;
+    color: white;
+    border: 3px solid re;
+   
+}
+a{
+    text-decoration: none;
+}
+
+/* Tamanho padrao de todas as divisoes 800px */
+.divisao, .divisao1, .divisao2, .divisao3, .divisao4, .divisao5 {
+    width: 100%;
+    height: 800px;
+    
+}
+
+
+/* DIVISAO 1 */
+.divisao1{
+    width: 100%;
+    height: 800px;
+
+    
+}
+
+.logo{
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    width: 135px;
+    margin-top: -25px;
+    position: absolute;
+}
+
+.banner{
+    color: rgb(255, 255, 255);
+    font-size: 130px;
+    width: 100%;
+    margin-top: -5px;
+    height: 360px;
+    position: absolute;
+}
+
+.sla{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 400px;
+    height: 100px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.sla input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Bairro{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 70%;
+    margin-top: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 305px;
+}
+
+.Bairro input{
+    width: 680px;
+    height: 60px;
+    font-size: 25px;
+    border: solid black;
+}
+
+.Estado{
+    color: rgb(0, 0, 0);
+    font-size:w 20px;
+    width: 70%;
+    margin-top: 600px;
+    height: 200px;
+    position: absolute;
+    margin-left: 310px;
+}
+
+.Estado input{
+    width: 680px;
+    height: 60px;
+    font-size: 30px;
+    border: solid black;
+}
+
+.selEstado {
+    width: 675px;
+    height: 60px;
+    border: solid black;
+    font-size: 15px;
+}
+
+
+/* DIVISAO 2  */
+.divisao2 {
+    background-color: #29264A;
+}
+
+.Sobre{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 75px;
+    padding-top: 200px;
+    width: 300px;
+}
+
+.Sob{
+    margin-left: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 90px;
+    width: 600px;
+    height: 300px;
+}
+
+.casa{
+    width:500px ;
+    margin-top: -300px;
+    margin-left: 700px;
+}
+
+
+/* DIVISAO 3  */
+
+.divisao3{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-top: 200px;
+    width: 100%;
+    height: 800px;
+    background-color: #ffffff;
+
+}
+
+.cao{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    width: 500px;
+    height: 50px;
+    margin-top: -200px;
+    margin-left: 500px;
+   
+}
+
+.cas1{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 90px;
+    
+}
+
+.img1{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 230px;
+    
+}
+
+.cas2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 90px;
+    
+}
+
+.img2{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 230px;
+    
+}
+
+.cas3{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 90px;
+   
+}
+
+.img3{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 230px;
+    
+}
+
+.cas4{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 90px;
+    
+}
+
+.img4{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 230px;
+    
+}
+
+.cas5{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: -720px;
+    margin-left: 580px;
+    
+}
+
+.img5{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 720px;
+    
+}
+
+.cas6{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 580px;
+   
+}
+
+
+.img6{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 720px;
+    
+}
+
+.cas7{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 580px;
+    
+}
+
+.img7{
+    width: 150px;
+    height: 150px;
+    margin-top: -200px;
+    margin-left: 720px;
+    
+}
+
+
+.cas8{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 40px;
+    margin-left: 580px;
+    
+}
+
+.img8{
+    width: 150px;
+    height: 150px;
+    margin-top: -105px;
+    margin-left: 720px;
+   
+}
+
+.cas9{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: -720px;
+    margin-left: 950px;
+   
+}
+
+.img9{
+    width: 150px;
+    height: 150px;
+    margin-top: -105px;
+    margin-left: 1100px;
+    position: absolute;
+    
+}
+
+.cas10{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 950px;
+    
+}
+
+.img10{
+    width: 150px;
+    height: 150px;
+    margin-top: -100px;
+    margin-left: 1100px;
+    position: absolute;
+   
+}
+
+.cas11{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 950px;
+ 
+}
+
+.img11{
+    width: 150px;
+    height: 150px;
+    margin-top: -130px;
+    margin-left: 1100px;
+    position: absolute;
+    
+}
+
+.cas12{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    width: 120px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 950px;
+   
+}
+
+.img12{
+    width: 150px;
+    height: 150px;
+    margin-top: -140px;
+    margin-left: 1100px;
+    position: absolute;
+}
+
+/* DIVISAO 4  */
+
+.divisao4{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    padding-top: 200px;
+    width: 100%;
+    height: 800px;
+    background-color: #282840;
+    display: flex;
+    justify-content: space-between;
+}
+.cada1{
+    width: 600px;
+    height: 550px;
+    margin-top: -80px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 500px;
+    background-color: #ffffff;
+}
+
+.log{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: -200px;
+    margin-left: 20px; 
+}
+
+label {
+    width: 100px;
+    margin-top: 110px;
+    position: absolute;
+}
+
+.email{
+  
+    width: 300px;
+    height: 70px;
+    margin-top: 100px;
+    margin-left: 60px; 
+  border: 2px solid black;
+}
+
+.espaco{
+    padding-left: 60px;
+
+}
+
+.estilo1{
+    margin-left: 60px;
+   
+}
+
+.faca{
+    font-size: 30px;
+    width: 300px;
+    margin-left: 150px;
+}
+
+/* DIVISAO 5 */
+.cada2{
+    width: 600px;
+    height: 550px;
+    margin-top: -80px;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-left: 500px;
+    background-color: #282840;
+}
+
+.cont{
+    width: 600px;
+    height: 550px;
+    margin-top: -500px;
+    font-size: 38px;
+    margin-left: 730px;
+    color: white;
+}
+
+.cont1{
+    width: 550px;
+    height: 50px;
+    margin-top: -450px;
+    font-size: 25px;
+    margin-left: 530px;
+    color: white;
+}
+
+.cont2{
+    width: 550px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 530px;
+    color: rgb(255, 255, 255);
+}
+
+.cont3{
+    width: 550px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 530px;
+    color: rgb(255, 255, 255);
+}
+
+.cont4{
+    width: 550px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+    margin-left: 530px;
+    color: rgb(255, 255, 255);
+}
+
+/*FOOTER */
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #282840;
+}
+
+.log2{
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 500px;
+   
+}
+
+.escrita{
+    width: 800px;
+    height: 60px;
+    margin-top: -20px;
+    margin-left: 500px;
+    font-size: 18px;
+    color: white;
+  
+}
+
+.escrita1{
+    width: 300px;
+    height: 60px;
+    margin-top: -160px;
+    margin-left: 800px;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+ 
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 567px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    .container{
+        width: 100%;
+        height: 3400px;
+    }
+    
+    /*menu*/
+    .menu{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:row;
+        background-image: url(../IMG/banner.png);
+        
+    }
+    
+    li{
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        
+        width: 100px;
+        height: 30px;
+        color: white;
+        border: 3px solid re;
+       
+    }
+    a{
+        text-decoration: none;
+    }
+    
+    /* Tamanho padrao de todas as divisoes 800px */
+    .divisao, .divisao1, .divisao2, .divisao3, .divisao4, .divisao5 {
+        width: 100%;
+        height: 800px;
+        
+    }
+    
+    
+    /* DIVISAO 1 */
+    .divisao1{
+        width: 100%;
+        height: 800px;
+    
+        
+    }
+    
+    .logo{
+        color: rgb(255, 255, 255);
+        font-size: 13px;
+        width: 135px;
+        margin-top: -25px;
+        position: absolute;
+    }
+    
+    .banner{
+        color: rgb(255, 255, 255);
+        font-size: 130px;
+        width: 100%;
+        margin-top: -5px;
+        height: 360px;
+        position: absolute;
+    }
+    
+    .sla{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        width: 70%;
+        margin-top: 400px;
+        height: 100px;
+        position: absolute;
+        margin-left: 300px;
+    }
+    
+    .sla input{
+        width: 680px;
+        height: 60px;
+        font-size: 25px;
+        border: solid black;
+    }
+    
+    .Bairro{
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        width: 70%;
+        margin-top: 500px;
+        height: 200px;
+        position: absolute;
+        margin-left: 305px;
+    }
+    
+    .Bairro input{
+        width: 680px;
+        height: 60px;
+        font-size: 25px;
+        border: solid black;
+    }
+    
+    .Estado{
+        color: rgb(0, 0, 0);
+        font-size:w 20px;
+        width: 70%;
+        margin-top: 600px;
+        height: 200px;
+        position: absolute;
+        margin-left: 310px;
+    }
+    
+    .Estado input{
+        width: 680px;
+        height: 60px;
+        font-size: 30px;
+        border: solid black;
+    }
+    
+    .selEstado {
+        width: 675px;
+        height: 60px;
+        border: solid black;
+        font-size: 15px;
+    }
+    
+    
+    /* DIVISAO 2  */
+    .divisao2 {
+        background-color: #29264A;
+    }
+    
+    .Sobre{
+        font-size: 30px;
+        color: aliceblue;
+        margin-left: 75px;
+        padding-top: 200px;
+        width: 300px;
+    }
+    
+    .Sob{
+        margin-left: 60px;
+        color: rgb(255, 255, 255);
+        font-size: 20px;
+        margin-top: 90px;
+        width: 600px;
+        height: 300px;
+    }
+    
+    .casa{
+        width:500px ;
+        margin-top: -300px;
+        margin-left: 700px;
+    }
+    
+    
+    /* DIVISAO 3  */
+    
+    .divisao3{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        padding-top: 200px;
+        width: 100%;
+        height: 800px;
+        background-color: #ffffff;
+    
+    }
+    
+    .cao{
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        width: 500px;
+        height: 50px;
+        margin-top: -200px;
+        margin-left: 300px;
+       
+    }
+    
+    .cas1{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 80px;
+        margin-top: 30px;
+        margin-left: 30px;
+        
+    }
+    
+    .img1{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 160px;
+        
+    }
+    
+    .cas2{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 30px;
+        
+    }
+    
+    .img2{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 160px;
+        
+    }
+    
+    .cas3{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 30px;
+       
+    }
+    
+    .img3{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 160px;
+        
+    }
+    
+    .cas4{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: 30px;
+        
+    }
+    
+    .img4{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 160px;
+        
+    }
+    
+    .cas5{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: -720px;
+        margin-left: 380px;
+        
+    }
+    
+    .img5{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 500px;
+        
+    }
+    
+    .cas6{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 380px;
+       
+    }
+    
+    
+    .img6{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 500px;
+        
+    }
+    
+    .cas7{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 380px;
+        
+    }
+    
+    .img7{
+        width: 150px;
+        height: 150px;
+        margin-top: -200px;
+        margin-left: 500px;
+        
+    }
+    
+    
+    .cas8{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 40px;
+        margin-left: 380px;
+        
+    }
+    
+    .img8{
+        width: 150px;
+        height: 150px;
+        margin-top: -105px;
+        margin-left: 500px;
+       
+    }
+    
+    .cas9{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: -720px;
+        margin-left: 680px;
+       
+    }
+    
+    .img9{
+        width: 150px;
+        height: 150px;
+        margin-top: -105px;
+        margin-left: 810px;
+        position: absolute;
+        
+    }
+    
+    .cas10{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 100px;
+        margin-left: 680px;
+        
+    }
+    
+    .img10{
+        width: 150px;
+        height: 150px;
+        margin-top: -100px;
+        margin-left: 810px;
+        position: absolute;
+       
+    }
+    
+    .cas11{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 100px;
+        margin-left: 680px;
+     
+    }
+    
+    .img11{
+        width: 150px;
+        height: 150px;
+        margin-top: -130px;
+        margin-left: 810px;
+        position: absolute;
+        
+    }
+    
+    .cas12{
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        width: 120px;
+        height: 100px;
+        margin-top: 100px;
+        margin-left: 680px;
+       
+    }
+    
+    .img12{
+        width: 150px;
+        height: 150px;
+        margin-top: -140px;
+        margin-left: 810px;
+        position: absolute;
+    }
+    
+    /* DIVISAO 4  */
+    
+    .divisao4{
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        padding-top: 200px;
+        width: 100%;
+        height: 800px;
+        background-color: #282840;
+        display: flex;
+        justify-content: space-between;
+    }
+    .cada1{
+        width: 600px;
+        height: 550px;
+        margin-top: -80px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-left: 500px;
+        background-color: #ffffff;
+    }
+    
+    .log{
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        margin-top: -200px;
+        margin-left: 20px; 
+    }
+    
+    label {
+        width: 100px;
+        margin-top: 110px;
+        position: absolute;
+    }
+    
+    .email{
+      
+        width: 300px;
+        height: 70px;
+        margin-top: 100px;
+        margin-left: 60px; 
+      border: 2px solid black;
+    }
+    
+    .espaco{
+        padding-left: 60px;
+    
+    }
+    
+    .estilo1{
+        margin-left: 60px;
+       
+    }
+    
+    .faca{
+        font-size: 30px;
+        width: 300px;
+        margin-left: 150px;
+    }
+    
+    /* DIVISAO 5 */
+    .cada2{
+        width: 600px;
+        height: 550px;
+        margin-top: -80px;
+        font-size: 20px;
+        border-radius: 20px;
+        margin-left: 500px;
+        background-color: #282840;
+    }
+    
+    .cont{
+        width: 600px;
+        height: 550px;
+        margin-top: -500px;
+        font-size: 38px;
+        margin-left: 730px;
+        color: white;
+    }
+    
+    .cont1{
+        width: 550px;
+        height: 50px;
+        margin-top: -450px;
+        font-size: 25px;
+        margin-left: 530px;
+        color: white;
+    }
+    
+    .cont2{
+        width: 550px;
+        height: 50px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 530px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .cont3{
+        width: 550px;
+        height: 50px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 530px;
+        color: rgb(255, 255, 255);
+    }
+    
+    .cont4{
+        width: 550px;
+        height: 50px;
+        margin-top: 50px;
+        font-size: 25px;
+        margin-left: 530px;
+        color: rgb(255, 255, 255);
+    }
+    
+    /*FOOTER */
+    footer{
+        width: 100%;
+        height: 300px;
+        background-color: #282840;
+    }
+    
+    .log2{
+        width: 200px;
+        height: 200px;
+        margin-top: 50px;
+        margin-left: 500px;
+       
+    }
+    
+    .escrita{
+        width: 800px;
+        height: 60px;
+        margin-top: -20px;
+        margin-left: 500px;
+        font-size: 18px;
+        color: white;
+      
+    }
+    
+    .escrita1{
+        width: 300px;
+        height: 60px;
+        margin-top: -160px;
+        margin-left: 800px;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+     
+    }
+    }
